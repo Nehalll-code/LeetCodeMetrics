@@ -1,4 +1,4 @@
-                                                                                          # LeetCodeMetrics
+# LeetCodeMetrics
 
 A simple and visual way to track your LeetCode progress.
 
