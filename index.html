@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCodeMetrics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!--heading
+        user
+        stats-->
+        <h1>LeetCode Metrics</h1>
+
+        <div class="user-container">
+            <p>Enter your Username</p>
+            <div class="user-input-container">
+                <input type="text" id="user-input" placeholder="Enter your LeetCode username">
+                <button id="search">Fetch Stats</button>
+            </div>
+        </div>
+        <!--stats container at the start needs to be hidden but when we apply hidden at the end of the stats-container class it did not hide
+        -->
+        <div class="stats-container hidden">
+            <div class="progress">
+
+                <div class="progress-item">
+                    <div class="easy-progress circle">
+                        <span id="easy-count"></span>
+                        <h2>Easy</h2>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="medium-progress circle">
+                        <span id="medium-count"></span>
+                        <h2>Medium</h2>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="hard-progress circle">
+                        <span id="hard-count"></span>
+                        <h2>Hard</h2>
+                    </div>
+                </div>
+
+                 </div>
+            <div class="user-stats">
+                <!-- User Stats will be displayed here from JS code-->
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
